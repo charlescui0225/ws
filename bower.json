@@ -1,0 +1,21 @@
+{
+  "name": "UX",
+  "version": "1.0.0",
+  "homepage":"https://github.com/VirginiaWu/UX",
+  "authors": [
+    "Virginia.wu <Virginia.wu@trantect.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "src",
+    "node_modules",
+    "bower_components",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "dependencies": {
+  }
+}

@@ -1,0 +1,65 @@
+doctype html
+html(lang="en")
+  head
+    title= "Smaless-offline"
+    link(rel="stylesheet", href= "http://emily123.github.io/smaless/smaless/0.3.0/build/css/main.css")
+    link(rel="stylesheet", href= "/font-awesome/css/font-awesome.css")
+    link(rel="stylesheet", href= "/styles/header.css")
+  body
+    header.theme-color-blue
+      .logo
+        a(href="localhost:3000")
+          img(src="http://localhost:3000/images/navigation/logo.png" height="28px")
+      nav.navbar.nav-static-top
+        div.navbar-left
+          i.fa.fa-bars
+        div.navbar-right
+          i.fa.fa-bolt
+
+    sidebar
+      .user-panel
+        .user-info
+          p Hello,charleshrthrthrthrthrhrrhrrtrthjytjjtyjtyjytjytjytj
+      ul.menu
+        li
+          a(href="#")
+            i.fa.fa-home
+            span Home
+        li
+          a(data-toggle="collapse", href="#")
+            i.fa.fa-laptop
+            span Terminal
+            i.fa.fa-angle-up.is-align-right
+          ul.menu
+            li.is-active
+              a(href="#")
+                i.fa.fa-circle-thin.fa-1
+                span Monitor
+            li
+              a(href="#")
+                i.fa.fa-circle-thin.fa-1
+                span Upgrade
+        li
+          a(href="#")
+            i.fa.fa-database.fa-1
+            span Service log
+
+      ul.menu
+        li
+          a(href="#")
+            i.fa.fa-tasks
+            span Currency
+            small
+        li
+          a(href="#")
+            i.fa.fa-outdent
+            span Tasks
+
+      ul.menu
+        li
+          a(href="#", target="_blank")
+            i.fa.fa-download
+            span Download
+
+    content
+    footer
